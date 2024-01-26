@@ -1,0 +1,327 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(36, 36, 36);
+}
+
+
+
+.side-h{
+    /* background-image: url(img/net.png); */
+    height: 100vh;
+    filter: brightness(200%);
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0,0.1), rgba(0, 0, 0, .7) ), url("img/net.png");
+    position: relative;
+}
+
+
+.side-n img{
+    width: 200px;
+    margin-left: 50px;
+
+    
+}
+    
+
+.side-n p{
+    margin-right: 50px;
+}
+
+
+.t{
+    color: rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.t h1{
+    font-size:55px;
+}
+
+.t p{
+    font-size: 100px;
+}
+
+.t input{
+    font-size:35px;
+    background-color: black;
+    margin-left: 120px;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+.section{
+   
+    height: 85vh;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.read{
+ margin-left: 120px;
+ width: 39vw;
+ margin-top: 130px;
+
+}
+
+ .title{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: bold
+
+}
+
+.pra{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+
+.view{
+    margin-left: 50px;
+    width: 39vw;
+
+}
+
+.view img{
+    width: 40vw;
+    margin-top: 10px;
+    
+}
+/* --------------------------------------------------------------------------------------------------------- */
+.section-ii{
+    height: 85vh;
+    background-color: black;
+    margin-top: 10px;
+}
+
+
+.view-ii img{
+    margin-left: 200px;
+     margin-top: 60px;
+    width: 25vw;
+    height: 60vh;
+
+}
+
+
+.read-ii{
+ margin-right:px ;
+    /* width: 30vw; */
+    margin-top: 130px; 
+   }
+   
+.title-ii{
+       color: rgb(255, 255, 255);
+       font-size: 3rem;
+       font-weight: bold;
+       width: 60vh;
+   
+   }
+   
+.pra-ii{
+       color: rgb(255, 255, 255);
+       font-size: 25px;
+       width: 37vw;
+   }
+   
+
+/* ---------------------------------------------------------------------------------------------------------- */
+.section-iii{
+   
+    height: 85vh;
+    background-color: black;
+    margin-top: 5px;
+}
+
+.read-iii{
+ margin-left: 280px;
+ width: 25vw;
+ margin-top: 170px;
+
+}
+
+ .title-iii{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: bold
+
+}
+
+.pra-iii{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    width: 31vw;
+}
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+.section-a{
+    height: 85vh;
+    background-color: black;
+    margin-top: 5px;
+}
+
+
+.view-a img{
+    margin-left: 150px;
+     margin-top: 60px;
+    width: 40vw;
+    height: 60vh;
+
+}
+
+/* ---------------------- */
+.read-a{
+    width: 30vw;
+    margin-top: 190px; 
+   }
+   
+.title-a{
+       color: rgb(255, 255, 255);
+       font-size: 3rem;
+       font-weight: bold;
+       width: 70vh;
+   
+   }
+   
+.pra-a{
+       color: rgb(255, 255, 255);
+       font-size: 25px;
+       width: 40vw;
+   }
+   
+   /* ----------------------------------------------------------------------------------------------------- */
+   /* .section-b{
+    height: 130vh;
+    background-color: black;
+    margin-top: 5px;
+} */
+
+/* .title-b{
+    color: rgb(255, 255, 255);
+       font-size: 3rem;
+       font-weight: bold;
+      text-align: center;
+      margin-top: 70px;
+
+} */
+
+
+#accordionFlushExample{
+    width: 160vh;
+    position: relative;
+    left: 200px;
+    margin-top: 3px;
+  
+}
+
+
+.accordion-header button{
+    background-color: rgb(48, 47, 47);
+    color: white;
+    height: 100px;
+    font-size: 25px;
+}
+
+
+/* --------------- */
+.c{
+    margin-left: 350px;
+}
+.c p{
+    font-size: 100px;
+}
+
+
+
+.c input{
+    font-size:35px;
+    background-color: black;
+    margin-left: 120px;
+    color: rgb(107, 105, 105);
+}
+/* ---------------------------------------------------------------------------- */
+.footer-e{
+    height: 60vh;
+    background-color: black;
+    margin-top: 10px;
+    
+
+}
+
+.footer-c{
+    /* border: 2px solid white; */
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.line{
+    color: rgb(179, 168, 132);
+    line-height: 43px;
+    
+}
+
+/* ---------------------------------------------- */
+
+.dropdown{
+    background-color: rgb(15, 15, 15);
+    width: 140px;
+    height: 38px;
+    
+    border-radius: 5%;
+    /* box-shadow: 0 8px 16px 0 rgba(133, 131, 131, 0.2), 0 6px 20px 0 rgba(187, 179, 179, 0.19); */
+
+   
+}
+
+/* ------------------- */
+
+.e-b{
+    margin-left: 30px;
+    font-size: 20px;
+   
+   
+    
+}
+
+.dropdown:active{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5%;
+
+    
+   
+}
+
+
+.footer-i ul{
+    /* border: 2px solid white; */
+    margin-top: 110px;
+    margin-left: 50px;
+
+}
+
+.dropdown-menu{
+    background-color:  rgb(97, 125, 247);
+    height: 30px;
+    margin-left: -100px;
+}
+
+.dropdown-menu:{
+    background-color:  rgb(3, 1, 1);
+}
+
+.dropdown-item{
+    font-size: large;
+    color: white;
+    margin-top:-15px ;
+   
+}
+
